@@ -20,5 +20,6 @@ Plug 'vim-airline/vim-airline-themes'
 
 " Varios
 Plug 'Yggdroot/indentLine'
+Plug 'terryma/vim-multiple-cursors'
 
 call plug#end()
