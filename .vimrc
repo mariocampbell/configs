@@ -34,5 +34,5 @@ so ~/.vim/plugins.vim
 so ~/.vim/plugins-config.vim
 so ~/.vim/maps.vim
 
-
-
+" Themes
+colorscheme onedark
