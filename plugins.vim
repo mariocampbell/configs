@@ -17,6 +17,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'joshdick/onedark.vim'
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
+  Plug 'frazrepo/vim-rainbow'
 
   " Varios
   Plug 'Yggdroot/indentLine'

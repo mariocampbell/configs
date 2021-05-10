@@ -16,6 +16,9 @@ let g:kite_supported_languages = ['*'] " Python, JavaScript, Go
 autocmd FileType javascript let b:coc_suggest_disable=1
 autocmd FileType scss setl iskeyword+=@-@
 
+" rainbow
+let g:rainbow_active = 1
+
 " onedark.vim 
 " override: Don't set a background color when running in a terminal
 if (has("autocmd") && !has("gui_running"))
