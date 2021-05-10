@@ -11,7 +11,12 @@ set nowrap " No dividir la linea si es muy larga
 set encoding=utf-8 " codificacion utf-8
 set showmatch " Resalta los caracteres cuando se hace una busqueda a medida que se tipea
 set sw=2 " Espaciado de la tabulacion
+<<<<<<< HEAD
 set nocompatible
+=======
+set nocp
+filetype plugin on
+>>>>>>> 76ab9f82b727b601d54f04874a678dd57b800898
 
 " Identacion a 2 espacios
 set tabstop=2
