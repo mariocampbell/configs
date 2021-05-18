@@ -13,8 +13,8 @@ set showmatch " Resalta los caracteres cuando se hace una busqueda a medida que 
 set sw=2 " Espaciado de la tabulacion
 set nocp
 filetype plugin on
-set path+=** " Agregar la carpeta actual a find
-set wildignore+=**/node_module/** " ignora node_module al buscar
+" set path+=** " Agregar la carpeta actual a find
+" set wildignore+=**/node_module/** " ignora node_module al buscar
 
 " Identacion a 2 espacios
 set tabstop=2
