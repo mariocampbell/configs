@@ -22,6 +22,7 @@ set shiftwidth=2
 set softtabstop=2
 set shiftround
 set expandtab " Insertar espacios en lugar de tabs
+set foldmethod=indent
 
 set hidden " Permitir cambiar de buffers sin tener que guardarlos
 
