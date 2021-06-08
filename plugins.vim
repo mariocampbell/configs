@@ -10,6 +10,7 @@ call plug#begin('~/.vim/plugged')
   " Autocompletado
   Plug 'mattn/emmet-vim'
   Plug 'neoclide/coc.nvim', { 'branch': 'release' }
+  Plug 'neoclide/coc-git'
   Plug 'sheerun/vim-polyglot'
   Plug 'pangloss/vim-javascript'
 
@@ -18,6 +19,12 @@ call plug#begin('~/.vim/plugged')
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
   Plug 'frazrepo/vim-rainbow'
+
+  " Git
+  Plug 'mhinz/vim-signify'
+  Plug 'tpope/vim-fugitive'
+  Plug 'tpope/vim-rhubarb'
+  Plug 'junegunn/gv.vim'"
 
   " Varios
   Plug 'Yggdroot/indentLine'

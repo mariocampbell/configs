@@ -1,6 +1,7 @@
 " Airline
 let g:airline_theme='minimalist'
 let g:airline#extensions#tabline#enabled = 1 " Mostrar las tabs de buffers
+let g:airline#extensions#tabline#formatter = 'unique_tail'
 
 " Indent blankline
 let g:indent_blankline_char='|'
