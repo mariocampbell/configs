@@ -21,9 +21,9 @@ autocmd FileType scss setl iskeyword+=@-@
 let g:rainbow_active = 1
 
 " theme onedark
-let g:onedark_style = 'darker'  " We need add the configs before colorscheme line
+let g:onedark_style = 'deep' " darker | cool | deep | warm | warmer
 let g:onedark_transparent_background = 1 " By default it is 0
-let g:onedark_italic_comment = 0 " By default it is 1
+let g:onedark_italic_comment = 1 " By default it is 1
 
 colorscheme onedark
 
