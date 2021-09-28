@@ -20,15 +20,12 @@ autocmd FileType scss setl iskeyword+=@-@
 " rainbow
 let g:rainbow_active = 1
 
-" onedark.vim 
-" override: Don't set a background color when running in a terminal
-if (has("autocmd") && !has("gui_running"))
-  augroup colorset
-    autocmd!
-    let s:white = { "gui": "#ABB2BF", "cterm": "145", "cterm16" : "7" }
-    autocmd ColorScheme * call onedark#set_highlight("Normal", { "fg": s:white }) " `bg` will not be styled since there is no `bg` setting
-  augroup END
-endif
+" theme onedark
+let g:onedark_style = 'darker'  " We need add the configs before colorscheme line
+let g:onedark_transparent_background = 1 " By default it is 0
+let g:onedark_italic_comment = 0 " By default it is 1
+
+colorscheme onedark
 
 let g:onedark_hide_endofbuffer=1
 let g:onedark_termcolors=256

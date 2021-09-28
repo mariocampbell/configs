@@ -15,7 +15,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'pangloss/vim-javascript'
 
   "Themes
-  Plug 'joshdick/onedark.vim'
+  Plug 'navarasu/onedark.nvim'
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
   Plug 'frazrepo/vim-rainbow'
