@@ -35,9 +35,9 @@ set termguicolors " Activa true colors en la terminal
 set background=dark " Fondo del tema: dark o light
 
 "Importacion de carpeta Plugins
-so ~/.vim/plugins.vim
-so ~/.vim/plugins-config.vim
-so ~/.vim/maps.vim
+so ~/configs/plugins.vim
+so ~/configs/plugins-config.vim
+so ~/configs/maps.vim
 
 " Themes
 colorscheme onedark
